@@ -1,0 +1,38 @@
+baseURL = 'https://elecbrandy.github.io/freshpink/'
+languageCode = 'en-us'
+title = 'freshPink'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/freshPink/'
+weight = 10
+
+[[menus.main]]
+name = 'TAGS'
+pageRef = '/freshpink/tags/'
+weight = 20
+
+[[menus.main]]
+name = 'ABOUT'
+pageRef = '/freshpink//about/'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
+
+[params]
+  googleAnalytics = "G-000000000" # your GoogleAnalytics code
+  githubUsername = "elecbrandy" # your githubUsername
+  copyright = "Copyright © 2024 elecbrandy"
+  math = true
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

@@ -1,0 +1,22 @@
+baseURL = 'https://notes.slce.moe/'
+languageCode = 'en-us'
+title = 'notes'
+theme = 'freshpink'
+
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.116.0"
+
+[params]
+githubUsername = "neroices"
+copyright = "© 2024"
+math = true
+
+[taxonomies]
+tag = "tags"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
